@@ -1,0 +1,166 @@
+{
+  "@@locale": "tr",
+  "appName": "İlaç Takibi",
+  "@appName": {
+    "description": "Uygulamanın adı"
+  },
+  
+  "home": {
+    "title": "Ana Sayfa",
+    "todayStatus": "Bugünkü Durum",
+    "activeMedicines": "Aktif İlaçlar",
+    "takenToday": "Bugün Alınan",
+    "adherenceRate": "Uyum Oranı",
+    "myActiveMedicines": "Aktif İlaçlarım",
+    "noActiveMedicine": "Henüz aktif ilacınız bulunmuyor.\nİlk ilacınızı eklemek için + butonuna tıklayın.",
+    "markAsTaken": "Alındı Olarak İşaretle",
+    "deleteMedicine": "İlaç Sil",
+    "deleteMedicineConfirm": "{name} ilacını silmek istediğinizden emin misiniz?",
+    "@deleteMedicineConfirm": {
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "expired": "Süresi Dolmuş"
+  },
+  
+  "addMedicine": {
+    "title": "İlaç Ekle",
+    "editTitle": "İlaç Düzenle",
+    "name": "İlaç Adı",
+    "dosage": "Doz",
+    "frequency": "Sıklık",
+    "category": "Kategori",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi (Opsiyonel)",
+    "notes": "Notlar (Opsiyonel)",
+    "active": "Aktif",
+    "reminders": "Hatırlatıcılar",
+    "addReminder": "Hatırlatıcı Ekle",
+    "save": "Kaydet",
+    "update": "Güncelle",
+    "requiredFields": "Lütfen tüm gerekli alanları doldurun",
+    "successAdd": "İlaç başarıyla eklendi",
+    "successUpdate": "İlaç başarıyla güncellendi",
+    "error": "Bir hata oluştu",
+    "selectCategory": "Kategori Seçin",
+    "selectDosageUnit": "Doz Birimi Seçin",
+    "selectFrequency": "Sıklık Seçin"
+  },
+  
+  "reminder": {
+    "time": "Saat",
+    "days": "Günler",
+    "active": "Aktif",
+    "addReminder": "Hatırlatıcı Ekle",
+    "editReminder": "Hatırlatıcı Düzenle",
+    "deleteReminder": "Hatırlatıcı Sil",
+    "selectDays": "Günler Seçin",
+    "selectTime": "Saat Seçin",
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar"
+  },
+  
+  "history": {
+    "title": "Geçmiş",
+    "medicineHistory": "İlaç Geçmişi",
+    "takenAt": "Alınma Zamanı",
+    "dosage": "Doz",
+    "notes": "Notlar",
+    "onTime": "Zamanında",
+    "late": "Geç",
+    "filterByDate": "Tarihe Göre Filtrele",
+    "filterByMedicine": "İlaca Göre Filtrele",
+    "noHistory": "Geçmiş bulunamadı",
+    "exportData": "Veriyi Dışa Aktar"
+  },
+  
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "theme": "Tema",
+    "notifications": "Bildirimler",
+    "backup": "Yedekleme ve Geri Yükleme",
+    "about": "Hakkında",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "version": "Versiyon",
+    "turkish": "Türkçe",
+    "english": "İngilizce",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "enableNotifications": "Bildirimleri Etkinleştir",
+    "reminderAdvance": "Hatırlatıcı Öncesi (dakika)",
+    "soundEnabled": "Ses Etkin",
+    "vibrationEnabled": "Titreşim Etkin",
+    "backupData": "Veriyi Yedekle",
+    "restoreData": "Veriyi Geri Yükle",
+    "clearData": "Tüm Veriyi Temizle",
+    "clearDataConfirm": "Tüm veriyi temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  
+  "common": {
+    "cancel": "İptal",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "warning": "Uyarı",
+    "info": "Bilgi"
+  },
+  
+  "categories": {
+    "antibiotic": "Antibiyotik",
+    "painkiller": "Ağrı Kesici",
+    "vitamin": "Vitamin",
+    "heart": "Kalp İlacı",
+    "bloodPressure": "Tansiyon İlacı",
+    "diabetes": "Şeker İlacı",
+    "antidepressant": "Antidepresan",
+    "other": "Diğer"
+  },
+  
+  "dosageUnits": {
+    "tablet": "tablet",
+    "capsule": "kapsül",
+    "syrup": "şurup (ml)",
+    "drop": "damla",
+    "ampoule": "ampul",
+    "mg": "mg",
+    "gram": "gram"
+  },
+  
+  "frequencies": {
+    "onceDaily": "Günde 1 kez",
+    "twiceDaily": "Günde 2 kez",
+    "threeTimesDaily": "Günde 3 kez",
+    "fourTimesDaily": "Günde 4 kez",
+    "onceWeekly": "Haftada 1 kez",
+    "twiceWeekly": "Haftada 2 kez",
+    "threeTimesWeekly": "Haftada 3 kez",
+    "onceMonthly": "Ayda 1 kez",
+    "custom": "Özel"
+  }
+} 

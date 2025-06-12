@@ -1,0 +1,166 @@
+{
+  "@@locale": "en",
+  "appName": "Medicine Tracker",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  
+  "home": {
+    "title": "Home",
+    "todayStatus": "Today's Status",
+    "activeMedicines": "Active Medicines",
+    "takenToday": "Taken Today",
+    "adherenceRate": "Adherence Rate",
+    "myActiveMedicines": "My Active Medicines",
+    "noActiveMedicine": "You have no active medicines yet.\nTap the + button to add your first medicine.",
+    "markAsTaken": "Mark as Taken",
+    "deleteMedicine": "Delete Medicine",
+    "deleteMedicineConfirm": "Are you sure you want to delete {name}?",
+    "@deleteMedicineConfirm": {
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+    "edit": "Edit",
+    "delete": "Delete",
+    "active": "Active",
+    "inactive": "Inactive",
+    "expired": "Expired"
+  },
+  
+  "addMedicine": {
+    "title": "Add Medicine",
+    "editTitle": "Edit Medicine",
+    "name": "Medicine Name",
+    "dosage": "Dosage",
+    "frequency": "Frequency",
+    "category": "Category",
+    "startDate": "Start Date",
+    "endDate": "End Date (Optional)",
+    "notes": "Notes (Optional)",
+    "active": "Active",
+    "reminders": "Reminders",
+    "addReminder": "Add Reminder",
+    "save": "Save",
+    "update": "Update",
+    "requiredFields": "Please fill in all required fields",
+    "successAdd": "Medicine added successfully",
+    "successUpdate": "Medicine updated successfully",
+    "error": "An error occurred",
+    "selectCategory": "Select Category",
+    "selectDosageUnit": "Select Dosage Unit",
+    "selectFrequency": "Select Frequency"
+  },
+  
+  "reminder": {
+    "time": "Time",
+    "days": "Days",
+    "active": "Active",
+    "addReminder": "Add Reminder",
+    "editReminder": "Edit Reminder",
+    "deleteReminder": "Delete Reminder",
+    "selectDays": "Select Days",
+    "selectTime": "Select Time",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  
+  "history": {
+    "title": "History",
+    "medicineHistory": "Medicine History",
+    "takenAt": "Taken At",
+    "dosage": "Dosage",
+    "notes": "Notes",
+    "onTime": "On Time",
+    "late": "Late",
+    "filterByDate": "Filter by Date",
+    "filterByMedicine": "Filter by Medicine",
+    "noHistory": "No history found",
+    "exportData": "Export Data"
+  },
+  
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "backup": "Backup & Restore",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "version": "Version",
+    "turkish": "Turkish",
+    "english": "English",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "enableNotifications": "Enable Notifications",
+    "reminderAdvance": "Reminder Advance (minutes)",
+    "soundEnabled": "Sound Enabled",
+    "vibrationEnabled": "Vibration Enabled",
+    "backupData": "Backup Data",
+    "restoreData": "Restore Data",
+    "clearData": "Clear All Data",
+    "clearDataConfirm": "Are you sure you want to clear all data? This action cannot be undone."
+  },
+  
+  "common": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  
+  "categories": {
+    "antibiotic": "Antibiotic",
+    "painkiller": "Painkiller",
+    "vitamin": "Vitamin",
+    "heart": "Heart Medicine",
+    "bloodPressure": "Blood Pressure Medicine",
+    "diabetes": "Diabetes Medicine",
+    "antidepressant": "Antidepressant",
+    "other": "Other"
+  },
+  
+  "dosageUnits": {
+    "tablet": "tablet",
+    "capsule": "capsule",
+    "syrup": "syrup (ml)",
+    "drop": "drop",
+    "ampoule": "ampoule",
+    "mg": "mg",
+    "gram": "gram"
+  },
+  
+  "frequencies": {
+    "onceDaily": "Once daily",
+    "twiceDaily": "Twice daily",
+    "threeTimesDaily": "Three times daily",
+    "fourTimesDaily": "Four times daily",
+    "onceWeekly": "Once weekly",
+    "twiceWeekly": "Twice weekly",
+    "threeTimesWeekly": "Three times weekly",
+    "onceMonthly": "Once monthly",
+    "custom": "Custom"
+  }
+} 

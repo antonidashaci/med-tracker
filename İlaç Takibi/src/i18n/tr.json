@@ -1,0 +1,57 @@
+{
+  "appName": "İlaç Takibi",
+  "home": {
+    "todayStatus": "Bugünkü Durum",
+    "activeMedicines": "Aktif İlaç",
+    "takenToday": "Bugün Alınan",
+    "adherenceRate": "Uyum Oranı",
+    "myActiveMedicines": "Aktif İlaçlarım",
+    "noActiveMedicine": "Henüz aktif ilacınız bulunmuyor.\nYeni ilaç eklemek için + butonuna tıklayın.",
+    "markAsTaken": "Alındı Olarak İşaretle",
+    "deleteMedicine": "İlaç Sil",
+    "deleteMedicineConfirm": "{name} ilacını silmek istediğinizden emin misiniz?",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "active": "Aktif",
+    "inactive": "Pasif"
+  },
+  "addMedicine": {
+    "addTitle": "Yeni İlaç Ekle",
+    "editTitle": "İlaç Düzenle",
+    "name": "İlaç Adı",
+    "dosage": "Doz",
+    "frequency": "Sıklık",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi (Opsiyonel)",
+    "notes": "Notlar (Opsiyonel)",
+    "active": "Aktif",
+    "reminders": "Hatırlatıcılar",
+    "addReminder": "Hatırlatıcı Ekle",
+    "save": "Kaydet",
+    "update": "Güncelle",
+    "requiredFields": "Lütfen gerekli alanları doldurun",
+    "successAdd": "İlaç başarıyla eklendi",
+    "successUpdate": "İlaç başarıyla güncellendi",
+    "error": "Bir hata oluştu"
+  },
+  "reminder": {
+    "time": "Saat",
+    "days": ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"],
+    "active": "Aktif"
+  },
+  "common": {
+    "cancel": "İptal",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "snackbar": {
+    "deleted": "İlaç başarıyla silindi",
+    "markedTaken": "İlaç alındı olarak işaretlendi"
+  },
+  "language": {
+    "changeLanguage": "Dili Değiştir",
+    "turkish": "Türkçe",
+    "english": "İngilizce"
+  }
+} 
