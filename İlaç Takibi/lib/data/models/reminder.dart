@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:hive/hive.dart';
 
 part 'reminder.g.dart';
@@ -172,11 +173,6 @@ class Reminder extends HiveObject {
     return days.map((day) => shortNames[day - 1]).toList();
   }
 
-  // Get time as string
-  String get timeString {
-    return '${time.hour.toString().padLeft(2, '0')}:${time.minute.toString().padLeft(2, '0')}';
-  }
-
   // Check if reminder is for today
   bool get isForToday {
     final today = DateTime.now().weekday;
@@ -223,22 +219,3 @@ class Reminder extends HiveObject {
     return null;
   }
 }
-
-// TimeOfDay adapter for Hive
-class TimeOfDayAdapter extends TypeAdapter<TimeOfDay> {
-  @override
-  final int typeId = 2;
-
-  @override
-  TimeOfDay read(BinaryReader reader) {
-    final hour = reader.readInt();
-    final minute = reader.readInt();
-    return TimeOfDay(hour: hour, minute: minute);
-  }
-
-  @override
-  void write(BinaryWriter writer, TimeOfDay obj) {
-    writer.writeInt(obj.hour);
-    writer.writeInt(obj.minute);
-  }
-} 
